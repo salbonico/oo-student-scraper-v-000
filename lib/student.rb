@@ -24,7 +24,7 @@ class Student
   temp_object[:name] = students_array[0]
   temp_object[:location] = students_array[1]
   student = Student.new(temp_object)
-  @@all << student
+  
   end
 
   def add_student_attributes(attributes_hash)

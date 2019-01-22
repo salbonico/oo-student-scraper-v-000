@@ -20,6 +20,9 @@ class Student
   end
 
   def self.create_from_collection(students_array)
+  temp_object ={}
+  temp_object[:name] = students_array[0]
+  temp_object[:location] = students_array[1]
   Student.new(students_array)
   end
 
